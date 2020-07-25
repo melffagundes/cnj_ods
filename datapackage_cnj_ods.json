@@ -1,0 +1,80 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "cnj_ods_cvs.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ODS Relacionado",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unidade de Implantacao",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Titulo",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Implantacao",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Autores",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Email Autores",
+            "type": "string",
+            "format": "email"
+          },
+          {
+            "name": "Tema",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Objetivo",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Finalidade",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Roteiro de Implantacao",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Resultado Alcançado",
+            "type": "any",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "name": "cnjods",
+  "title": "CNJ ODS",
+  "description": "Boas Práticas realcionadas aos ODS",
+  "homepage": "https://paineis.cnj.jus.br/QvAJAXZfc/opendoc.htm?document=qvw_l%2FPainelCNJ.qvw&host=QVS%40neodimio03&anonymous=true&sheet=shAODPrincipal"
+}
