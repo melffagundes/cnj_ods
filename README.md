@@ -1,2 +1,2 @@
 # cnj_ods
-Boas práticas do CNJ relacionadas aos ODSs
+Base com as boas práticas do CNJ relacionadas aos ODSs
